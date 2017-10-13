@@ -21,8 +21,8 @@ public class TestController {
         return "/login";
     }
 
-    @RequestMapping("/test/index")
+    @RequestMapping("/test/test")
     public String index(){
-        return "/index";
+        return "/test";
     }
 }
